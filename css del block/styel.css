@@ -1,0 +1,37 @@
+
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #4a90e2; color: #fff; padding: 20px 40px; }
+    header h1 { margin: 0; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; margin-right: 15px; text-decoration: none; }
+    main { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+    section { background: #fff; margin-bottom: 30px; padding: 20px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    section h2 { margin-top: 0; }
+    .biografia p { line-height: 1.7; }
+    .foro textarea { width: 100%; min-height: 100px; resize: vertical; }
+    .foro input[type="text"], .foro textarea { border: 1px solid #ccc; border-radius: 4px; padding: 10px; }
+    .foro button { background: #4a90e2; color: #fff; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; }
+    .foro button:hover { background: #357ab8; }
+    .comentario { border-top: 1px solid #e1e1e1; padding: 15px 0; }
+    .comentario:first-child { border-top: none; }
+    .comentario h4 { margin: 0 0 8px; }
+    .comentario p { margin: 0; }
+/* --- Reglas Responsive para Celulares --- */
+@media (max-width: 768px) {
+    header { 
+        padding: 15px 20px; 
+        text-align: center; 
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    nav a {
+        margin-right: 0;
+    }
+    main { 
+        margin: 15px auto; 
+    }
+}
